@@ -259,6 +259,8 @@ endif()
 #
 # Supress the addition of implicit linker flags (such as -rdynamic)
 #
+set(CMAKE_SYSTEM_NAME Generic)
+set(CMAKE_SYSTEM_VERSION "0.0.0")
 set(CMAKE_SHARED_LIBRARY_LINK_C_FLAGS "")
 set(CMAKE_SHARED_LIBRARY_LINK_CXX_FLAGS "")
 set(CMAKE_EXE_EXPORTS_C_FLAG "")
